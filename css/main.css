@@ -1,0 +1,13 @@
+table {
+    width: 100%;
+}
+td {
+    width: 33.3%;
+    border: 6px solid aqua;
+}
+td:after {
+    content: '';
+    display: block;
+    margin-top: 100%;
+
+}
